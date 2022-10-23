@@ -8,73 +8,62 @@ project 1 - A Random Quote Generator
 ***/
 
 const quotes = [
-  // quote number zero
-  {
-    quote: "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
-    source: "Oprah Winfrey",
-    citation: '',
-    year: ''
-  },
-  // quote number one
-  {
-    quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
-    source: "Benjamin Franklin",
-    citation: '',
-    year: ''
-  },
-  // quote number two
   {
     quote: "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
     source: 'Dr. Seuss',
     citation: '',
-    year: ''
+    year: '',
+    tag: 'Author'
   },
-  // quote number three
   {
     quote: "Never let the fear of striking out keep you from playing the game.",
     source: 'Babe Ruth',
     citation: '',
-    year: ''
+    year: '',
+    tag: 'Baseball Player'
   },
-  // quote number four 
   {
     quote: "Success is not final; failure is not fatal: It is the courage to continue that counts.",
     source: 'Winston S. Churchill',
     citation: '',
-    year: ''
+    year: '',
+    tag: 'UK Prime Minister'
   },
   {
     quote: "The question isn't who is going to let me; it's who is going to stop me.",
-    citation: 'Ayn Rand',
-    year: ''
+    source: 'Ayn Rand',
+    citation: '',
+    year: '',
+    tag: 'Writer'
   },
-  // quote number five
   {
     quote: "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma which is living with the results of other people's thinking.",
     source: 'Steve Jobs',
-    citation: '',
-    year: ''
+    citation: 'at Stanford University',
+    year: '2005',
+    tag: 'Entrepreneur'
   },
-  // quote number six 
   {
     quote: "Only a life lived for others is a life worthwhile.",
     source: 'Albert Einstein',
     citation: '',
-    year: ''
+    year: '',
+    tag: 'Scientist'
   },
-  // quote number seven
   {
-    quote: "If you really look closely, most overnight successes took a long time.",
+    quote: "Great things in business are never done by one person.",
     source: 'Steve Jobs',
-    citation: '',
-    year: ''
+    citation: 'Biography',
+    year: '2003',
+    tag: 'Entrepreneur'
+
   },
-  // quote number eight
   {
     quote: "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     source: 'Maya Angelou',
     citation: '',
-    year: ''
+    year: '',
+    tag: 'Menoirist'
   }
 ]
 

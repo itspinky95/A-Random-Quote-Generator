@@ -63,7 +63,7 @@ const quotes = [
     source: 'Maya Angelou',
     citation: '',
     year: '',
-    tag: 'Menoirist'
+    tag: 'Menmoirist'
   }
 ]
 

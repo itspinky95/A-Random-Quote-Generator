@@ -69,27 +69,23 @@ const quotes = [
 
 // console.log(quotes)
 
-
 /***
  * `getRandomQuote` function
 ***/
+
 function getRandomQuote() {
   let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
   return randomQuote;
 };
-
-
 
 /*
  * setting colour of background
 */
 const colors = ['red', 'blue', 'violet', 'hotpink', 'brown', 'purple', 'green', 'orange', 'gray', 'babyblue'];
 
-
 /***
  * `printQuote` function
 ***/
-
 
 function printQuote() {
   document.body.style.backgroundColor = getRandomColor();
@@ -111,6 +107,7 @@ function printQuote() {
 }
 
 // generates a random color from the colors array on button click
+
 function getRandomColor() {
   return colors[Math.floor(Math.random() * 9)]
 }

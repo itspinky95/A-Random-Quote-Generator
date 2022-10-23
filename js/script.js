@@ -75,17 +75,35 @@ const quotes = [
 /***
  * `getRandomQuote` function
 ***/
-function getRandomQuote(quotes) {
-  
-}
-
+function getRandomQuote () {
+  let randomQuote = quotes[Math.floor(Math.random () * quotes.length)]; 
+  return randomQuote;
+};
 
 /***
  * `printQuote` function
 ***/
 
 
-
+function printQuote () {
+  let quote = getRandomQuote ();
+  let html = `<p class="quote">${quote.quote}</p>
+   <p class="source">${quote.source}`
+    if (quote.citation !== undefined) {
+     html += `<span class ="citation">${quote.citation}</span>`;
+    }
+    if (quote.year !== undefined) {
+     html += `<span class = "year">${quote.year}</span>`;
+    }
+    if (quote.tag !== undefined) {
+      html += `<span class = "tag">, ${quote.tag}</span>`;
+     }
+    `</p>`
+  
+      return(document.getElementById("quote-box").innerHTML = html);
+  }
+   // interval to rotate between color and quotes, set for five seconds
+  setInterval(printQuote, 4000);
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!

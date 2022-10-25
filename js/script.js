@@ -11,29 +11,21 @@ const quotes = [
   {
     quote: "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
     source: 'Dr. Seuss',
-    citation: '',
-    year: '',
     tag: 'Author'
   },
   {
     quote: "Never let the fear of striking out keep you from playing the game.",
     source: 'Babe Ruth',
-    citation: '',
-    year: '',
     tag: 'Baseball Player'
   },
   {
     quote: "Success is not final; failure is not fatal: It is the courage to continue that counts.",
     source: 'Winston S. Churchill',
-    citation: '',
-    year: '',
     tag: 'UK Prime Minister'
   },
   {
     quote: "The question isn't who is going to let me; it's who is going to stop me.",
     source: 'Ayn Rand',
-    citation: '',
-    year: '',
     tag: 'Writer'
   },
   {
@@ -46,8 +38,6 @@ const quotes = [
   {
     quote: "Only a life lived for others is a life worthwhile.",
     source: 'Albert Einstein',
-    citation: '',
-    year: '',
     tag: 'Scientist'
   },
   {
@@ -61,8 +51,6 @@ const quotes = [
   {
     quote: "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     source: 'Maya Angelou',
-    citation: '',
-    year: '',
     tag: 'Menmoirist'
   }
 ]
